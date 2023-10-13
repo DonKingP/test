@@ -4,83 +4,102 @@ html, body {
   background-color:indianred;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-header{
-    background-color:white;
+header {
+  background-color:white;
   padding: 15px;
-
   border: 5px solid green;
-font-style:italic;
+  font-style:italic;
   text-align: center;
-
 }
 body {
   background-color:lightblue;
   padding: 15px;
-
-
-
   text-align: center;
 }
-
 .bold {
   text-transform:uppercase;
   font-weight:1000;
   font-family:cursive;
-
 }
-#button{
+#button {
   color:blue;
-font-family:monospace;
+  font-family:monospace;
   font-weight:bold;
 }
-
-#important{
-
-  
+#important {
 }
 #container {
-
-display:flex;
+  display:flex;
   flex-flow:wrap;
 }
-.flex-header{
+.flex-header {
   display: flex;
   flex-direction:row;
   justify-content:space-evenly;
-
 }
-a:link{
+a:link {
   opacity:100%;
 }
-newDiv{
+newDiv {
   width:auto;
   height:auto;
   font-size: 50px;
   padding:10px;
 }
 .navbar ul {
-    list-style: none;
-justify-content: space-evenly;
+  list-style: none;
+  justify-content: space-evenly;
   display:flex;
-
 }
-
 /* Style rule set for individual li */
 .navbar ul li {
-    float: left;
-    margin: 10px;
+  float: left;
+  margin: 10px;
 }
-
-
 /* Style rule set for individual li link */
 .navbar ul li a {
-    font-family: Arial;
-    color:black;
-    font-size: 16px;
-    text-decoration: none;
+  font-family: Arial;
+  color:purple;
+  font-size: 16px;
+  text-decoration: none;
 }
-
 /* Style rule set for hovered link */
 .navbar ul li a:hover {
-    font-weight: bold;
+  font-weight: 900;
+}
+body.dark-mode {
+  background-color: #111;
+  color: #fff;
+}
+header.dark-mode {
+  background-color: #222;
+  border-color: #fff;
+}
+.bold.dark-mode {
+  color: #b5b5b5;
+}
+#button.dark-mode {
+  color: #fff;
+}
+#container.dark-mode {
+  background-color: #222;
+}
+body.dark-mode header {
+  border-color: #fff;
+  background-color:black
+}
+#theme-button {
+  background-color: purple;
+  color: #fff;
+  border: none;
+  padding: 3px 4px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease-in-out;
+}
+#theme-button:hover {
+  background-color: #ff6b35;
 }
