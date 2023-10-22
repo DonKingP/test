@@ -103,3 +103,8 @@ body.dark-mode header {
 #theme-button:hover {
   background-color: #ff6b35;
 }
+
+form {
+  display:grid;
+  padding:1cm;
+}
