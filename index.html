@@ -1,59 +1,68 @@
 <!DOCTYPEhtml>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Anime Site Test</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-  <body>
-<header>
-    <h1>WELCOME!</h1>
+  <html>
 
-    <p class ="bold">A place to talk about mangas/manhuas you love!</p>
-      <div class = "flex-header">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Anime Site Test</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+  </head>
+
+  <body>
+
+    <header>
+      <section>
+        <img src="images/purple.jpg" alt="animation" id=sun />
+        <img src="images/beach.png" alt="animation" id=beach />
+        <img src="images/fire.png" alt="animation" id=fire />
+        <img src="images/meteor.png" alt=meteor id=meteor />
+        <h1 id = welcome>WELCOME!</h1>
+      </section>
+
+
+      <p class="bold">A place to talk about mangas/manhuas you love!</p>
+      <div class="flex-header revealable">
         <div>
-        <a href = "https://asuratoon.com">Asura</a>
-    <p>manhua website</p>
+          <a href="https://asuratoon.com">Asura</a>
+          <p>manhua website</p>
         </div>
         <div>
-        <a href = "https://reaperscans.com">Reaper </a>
+          <a href="https://reaperscans.com">Reaper </a>
           <p>manhua and novel website</p>
         </div>
-        
-    <button id="theme-button">Light Mode</button>
-  </div>
-</header>
+
+        <button id="theme-button">Light Mode</button>
+      </div>
+    </header>
 
 
-  
 
-  <div class="navbar">
-  <ul>
-    <li><a href="index2.html">About</a></li>
-    <li><a href="index3.html">Settings</a></li>
-    <li><a href="index4.html">Explore</a></li>
-    <li><a href="index5.html">Profile</a></li>
-    <!-- Stretch Challenge: Drop Down -->
-  </ul>
-</div>
-  <img src="https://cdn-icons-png.flaticon.com/512/6320/6320563.png"
-  style="height:100px"/>
 
-<div>
-<button id="button">Make a discussion</button>
+    <div class="navbar revealable">
+      <ul>
+        <li><a href="tabs/about.html">About</a></li>
+        <li><a href="tabs/settings.html">Settings</a></li>
+        <li><a href="tabs/explore.html">Explore</a></li>
+        <li><a href="tabs/profile.html">Profile</a></li>
+        <li><a href="tabs/signatures.html">Signatures</a></li>
+        <!-- Stretch Challenge: Drop Down -->
+      </ul>
+    </div>
+    <img src="https://cdn-icons-png.flaticon.com/512/6320/6320563.png" style="height:100px" />
 
-<div id="container">
+    <div class = revealable>
+      <button id="button">Make a discussion</button>
 
-</div>
+      <div id="container">
 
-</div>
-<img src="realweeb2.jpg" 
-  style="height:500px" 
-  style="width:500px"/>
-<script src="index.js"></script>
+      </div>
+
+    </div>
+    <img src="realweeb2.jpg" style="height:500px" style="width:500px" class = "revealable"/>
+    <script src="index.js"></script>
     <script src="button.js"></script>
-      <script src= "submit.js"></script>
-</body>
+    <script src="submit.js"></script>
+  </body>
 
-</html>
+  </html>
